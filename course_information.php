@@ -13,7 +13,7 @@ include('./templates/header.php');
 <main>
 
 <section class="container">
-	<img class="course_info_bg_img" src="images/bg_home_page_pano.jpg">
+	<img class="hp_bg_img" src="images/golf_woods.jpg"
 </section><!-- end container -->
 
 

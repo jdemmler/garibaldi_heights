@@ -11,7 +11,6 @@ include('./templates/header.php');
 ?>
 
 <!doctype html>
-<div class="wrapper">
 
 <main>
 
@@ -19,7 +18,7 @@ include('./templates/header.php');
 
 <section class="container">
 
-	<img class="hp_bg_img" src="images/bg_home_page_pano.jpg">
+	<img class="hp_bg_img" src="images/mountain_golf.jpg">
 
 	<article class="tagline">
 
@@ -43,7 +42,7 @@ include('./templates/header.php');
 
 </main>
 
-<div class="spacemaker5000"></div>
+
 <?php
 include('./templates/footer.php');
 ?>

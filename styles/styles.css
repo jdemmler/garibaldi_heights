@@ -13,38 +13,32 @@
 
 
 
-.spacemaker5000/* :D */ {
-	margin-bottom: 740px;
-}
+
 
 /* hero img styles */
 
-.container {
-	margin: 0 auto;
-	width: 960px;
-	position: relative;
-}
 
 .hp_bg_img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+
+}
+
+/*.course_info_bg_img {
 	position: absolute;
 	top: 0px;
 	left: -842.5px;
 
-}
+}*/
 
-.course_info_bg_img {
+/*.location_bg_img {
 	position: absolute;
 	top: 0px;
 	left: -842.5px;
 
-}
-
-.location_bg_img {
-	position: absolute;
-	top: 0px;
-	left: -842.5px;
-
-}
+}*/
 
 /* end hero img styles */
 
@@ -89,7 +83,7 @@
 
 
 /* course Information styles */
-.wrapper, .information_container {
+/*.wrapper, .information_container {
 	background-color: #DFDAC7;
 }
 
@@ -104,13 +98,13 @@
 
 
 
-/* .course_info_hero img {
+ .course_info_hero img {
 	max-width: 100%;
 	height: auto;
 	position: relative;
 	display: block;
 
-} */
+} 
 
 .general_image_settings {
 	height: 350px;
@@ -122,7 +116,7 @@
 
 /* course info trans styles */
 
-.restaurant:hover .restaurant_trans01,
+/*.restaurant:hover .restaurant_trans01,
 .restaurant:target .restaurant_trans01,
 .restaurant:focus .restaurant_trans01,
 .restaurant:hover .restaurant_trans02,
@@ -194,7 +188,7 @@
 
 
 
-.course_info_transbox {
+/*.course_info_transbox {
 	height:96px;
 	width: 350px;
 	background-color: #7A4012; 
@@ -248,14 +242,14 @@
 
 .green_fees {
 	position: relative;
-}
+} 
 
 /* end course inforamtion styles */
 
 /* contact us styles */
 
 
-.contact_info_transbox {
+/*.contact_info_transbox {
 	height:96px;
 	width: 350px;
 	background-color: #7A4012; 
@@ -304,7 +298,83 @@
 
 /* end contact us styles */
 
+/* course Information styles */
+.wrapper, .information_container {
+	background-color: #DFDAC7;
+}
 
+.information_container {
+	width: 95%;
+	margin: 0 auto;
+	background-color: #DFDAC7;
+}
+
+.course_info_bg_img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+
+}
+
+.general_image_settings {
+	height: 350px;
+	width: 350px;
+	float: left;
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 20px;
+}
+
+.course_info_transbox {
+	height:96px;
+	width: 350px;
+	background-color: #7A4012; 
+	opacity: 0.9;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.course_info_transbox h1, .tee_time_transbox h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 1.5em;
+	
+}
+
+.tee_time {
+	position: relative;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #7A4012;
+}
+
+
+.tee_time_transbox {
+	height:350px;
+	width: 350px;
+
+	opacity: 0.9;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.restaurant {
+	position: relative;
+}
+
+.pro_shop {
+	position: relative;
+}
+
+.green_fees {
+	position: relative;
+}
 
 /* location styles */
 

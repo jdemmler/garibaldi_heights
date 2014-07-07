@@ -12,18 +12,14 @@
 
 <body id="back_top">
 
-
-
 <header>
-
-
-
 	<div class="inner_header">
-
+    
+    <div class="logo">
 		<a href="index.php">
 			<img class="logo_nav" src="images/logo_2.png" alt="Garabaldi Heights">
 		</a>
-
+	</div><!--end logo -->
 		<nav>
 			<ul>
 		    	<li><a class="<?php echo $homeSelected; ?>" href="index.php">Home</a></li>

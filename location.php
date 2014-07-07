@@ -14,7 +14,7 @@ include('./templates/header.php');
 <main>
 
 <section class="container">
-	<img class="location_bg_img" src="images/bg_home_page_pano.jpg">
+	<img class="hp_bg_img" src="images/dear_golf_course.jpg"
 </section><!-- end course section hero -->
 
 <section class="location settings_google">

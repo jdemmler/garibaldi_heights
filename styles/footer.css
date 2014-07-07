@@ -11,16 +11,31 @@
 	color: #DFDAC7;
 }
 
-.contact_us {
-	float: left;
+.inner_footer {
+min-width: 900px;
+max-width: 1500px;
+margin: 0 auto;
+padding-top: 30px;
+
+}
+
+.spacing {
 	width: -moz-calc( (100% / 3) - ((100px * 2) / 3) );
 	width: -webkit-calc( (100% / 3) - ((100px * 2) / 3) );
 	width: calc( (100% / 3) - ((100px * 2) / 3) );
-	margin-left: 150px;
+}
+
+.contact_us {
+	float: left;
+
 }
 
 .about_us {
-	margin-right: 150px;
+	float: left;
+}
+
+.social {
+	float: left;	
 }
 
 .upper_footer h2 {
@@ -49,9 +64,9 @@
 .lower_footer p {
 	float: left;
 	text-align: center;
-	width: -moz-calc( (100% / 3) - ((100px * 2) / 3) );
-	width: -webkit-calc( (100% / 3) - ((100px * 2) / 3) );
-	width: calc( (100% / 3) - ((100px * 2) / 3) );
+	width: -moz-calc( (100% / 4) - ((100px * 3) / 4) );
+	width: -webkit-calc( (100% / 4) - ((100px * 3) / 4) );
+	width: calc( (100% / 4) - ((100px * 3) / 4) );
 }
 
 .lower_footer p:nth-child(3) {

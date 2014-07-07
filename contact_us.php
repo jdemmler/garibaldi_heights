@@ -12,7 +12,7 @@ include('./templates/header.php');
 <!doctype html>
 
 <section class="course_info_hero">
-	<img src="images/bg_home_page_pano.jpg">
+	<img class="hp_bg_img" src="images/stormy_golf.jpg"
 </section><!-- end course section hero -->
 
 
