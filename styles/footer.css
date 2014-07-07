@@ -50,6 +50,22 @@ font-family: 'Arvo', serif;
 	line-height: 20px;
 }
 
+.google_plus,
+.facebook,
+.twitter {
+	font-size: 30px;
+	color: 	 #83831F;
+	padding-bottom: 15PX;
+	text-decoration: none;
+}
+
+.google_plus:hover,
+.facebook:hover,
+.twitter:hover,
+.icon-arrow-up:hover {
+	color: #DFDAC7;
+}
+
 /* end upper footer */
 
 
@@ -73,7 +89,10 @@ font-family: 'Arvo', serif;
 	width: calc( (100% / 4) - ((1px * 3) / 4) );
 }
 
-
+.icon-arrow-up {
+	font-size: 30px;
+	color: 	 #83831F;
+}
 
 
 

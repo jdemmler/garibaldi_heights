@@ -353,13 +353,19 @@ margin: 0 auto;
 
 /* course Information styles */
 
+.ci_container {
+	display: table;
+}
+
 
 .information_container {
-			width: 100%;
+	width: 100%;
 background-image: url(../images/asfalt-light.png);
 background-color: #DFDAC7;
 border-top: solid 2px #7A4012;
 	border-bottom: solid 2px #7A4012;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .course_info_bg_img {
@@ -367,7 +373,10 @@ border-top: solid 2px #7A4012;
 	height: auto;
 	position: relative;
 	display: block;
+}
 
+.picture {
+	float: left;
 }
 
 .general_image_settings_ci {
@@ -377,6 +386,18 @@ border-top: solid 2px #7A4012;
 	text-align: center;
 	margin: 5px;
 	margin-bottom: 20px;
+}
+
+.information_speil {
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-left: 400px;
+}
+
+.information_speil p {
+	padding-bottom: 15px;
+	font-family: Arvo, serif;
+	line-height: 1.3em;
 }
 
 .course_info_transbox {
@@ -419,7 +440,6 @@ border-top: solid 2px #7A4012;
 
 .restaurant {
 	position: relative;
-
 }
 
 
