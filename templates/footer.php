@@ -45,24 +45,25 @@
     
     </section><!-- end upper_footer -->
     
-    <article class="lower_footer">
-	<p>Copyright 2014 Garibaldi Heights Golf Club</p>
-	<p>For Educational Purposes Only</p>
-	<p>Image Credits</p>
-      </article><!-- end lower footer -->
+    <section class="lower_footer">
+    <div class="inner_footer">
+    
+	<p class="spacing_lower">Copyright 2014 Garibaldi Heights Golf Club</p>
+	<p class="spacing_lower">For Educational Purposes Only</p>
+	<p class="spacing_lower">Image Credits</p>
+     
       
-      <article class="top_arrow">
+      <article class="top_arrow spacing_lower">
       <a href="#back_top">
       <span class="icon-arrow-up"></span>
       </a>	
       
-       <div class="clear">
-	</div>
+    
       </article><!-- end top arrow -->
-      
-	
-  
-
+         <div class="clear">
+	</div>
+    </div><!-- end inner footer -->
+         </section><!-- end lower footer -->
 </footer>
 
 

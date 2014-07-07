@@ -5,6 +5,7 @@
 <title>GH Golf Club | <?php echo $pageTitle; ?></title>
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Arvo|Merriweather:400,900|Cardo:400,700|Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->

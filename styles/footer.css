@@ -8,15 +8,16 @@
 	background-image: url(../images/asfalt-light.png);
 	padding-top: 50px;
 	padding-bottom: 50px;
-	color: #DFDAC7;
+	color: 	 #7A4012;
+	border-bottom: solid 2px #7A4012;
+	
 }
 
 .inner_footer {
 min-width: 900px;
 max-width: 1500px;
 margin: 0 auto;
-padding-top: 30px;
-
+font-family: 'Arvo', serif;
 }
 
 .spacing {
@@ -35,7 +36,8 @@ padding-top: 30px;
 }
 
 .social {
-	float: left;	
+	float: left;
+	text-align: right;	
 }
 
 .upper_footer h2 {
@@ -61,18 +63,15 @@ padding-top: 30px;
 	
 }
 
-.lower_footer p {
+.spacing_lower {
 	float: left;
 	text-align: center;
-	width: -moz-calc( (100% / 4) - ((100px * 3) / 4) );
-	width: -webkit-calc( (100% / 4) - ((100px * 3) / 4) );
-	width: calc( (100% / 4) - ((100px * 3) / 4) );
+	width: -moz-calc( (100% / 4) - ((1px * 3) / 4) );
+	width: -webkit-calc( (100% / 4) - ((1px * 3) / 4) );
+	width: calc( (100% / 4) - ((1px * 3) / 4) );
 }
 
-.lower_footer p:nth-child(3) {
-	margin-left: 0;
-	text-align: right;
-	}
+
 
 
 
