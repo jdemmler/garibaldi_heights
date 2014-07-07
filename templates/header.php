@@ -26,7 +26,7 @@
 		    	<li><a class="<?php echo $homeSelected; ?>" href="index.php">Home</a></li>
 				<li><a class="<?php echo $informationSelected; ?>" href="course_information.php">Course Information</a></li>
 				<li><a class="<?php echo $holeSelected; ?>" href="hole_by_hole.php">Hole by Hole</a></li>
-				<li><a class="<?php echo $aboutSelected; ?>" href="location.php">Location</a></li>
+				<li><a class="<?php echo $aboutSelected; ?>" href="location.php">Book a Time</a></li>
 				<li><a class="<?php echo $contactSelected; ?>" href="contact_us.php">Contact Us</a></li>
 			</ul>
 		</nav>

@@ -20,32 +20,117 @@ include('./templates/header.php');
 	</article><!-- end book_tee_time -->
 </section><!-- end course section hero -->
 
-<section class="location settings_google">
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82525.04670465493!2d-123.12486079999995!3d49.731362349999515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486f9a46a868cbd%3A0x599a7861ed442e84!2sSquamish+Valley+Golf+%26+Country+Club!5e0!3m2!1sen!2sca!4v1404599300871" width="900" height="400" frameborder="0" style="border:0"></iframe>
+<article class="tee_time general_image_settings .tee_time_trans01">
 
-</section><!-- end location -->
+			<div class="tee_time_bg">
 
-<section class="contact_icons">
+				<figcaption class="tee_time_transbox tee_time_trans01">
 
-	<article class="telephone">
+					<h1>Tee Time</h1>
+					<p>Please select a date and time from the drop box below.</p>
+					<p>Only available dates and times will show below</p>
 
-	</article><!-- end telephone -->
+					<fieldset class="months">
+						<p>Please pick a month:</p>
+						<select id="month" name="month" multiple>
+							
 
-		<article class="email">
+							<option value=""> -Month- </option>
+							<option value="January">January</option>
+							<option value="Febuary">Febuary</option>
+							<option value="March">March</option>
+							<option value="April">April</option>
+							<option value="May">May</option>
+							<option value="June">June</option>
+							<option value="July">July</option>
+							<option value="August">August</option>
+							<option value="September">September</option>
+							<option value="October">October</option>
+							<option value="November">November</option>
+							<option value="December">December</option>
 
-	</article><!-- end email -->
+						</select>
 
-	<article class="hours">
-
-	</article><!-- end hours-->
-
-	<div class="clear">
-							</div><!-- end of clear -->
+					</fieldset>
 
 
-	</section><!-- end contact_icons-->
+				</fieldset>
 
+				<fieldset class="dates">
+					<p>Please pick a date:</p>
+					<select id="date" name="date" multiple>
+						
+
+						<option value=""> - Day - </option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+
+					</select>
+				</fieldset>
+
+				<fieldset class="times">
+					<p>Available Times</p>
+					<select id="times" name="times" multiple>
+						
+
+						<option value=""> -Time- </option>
+						<option value="1">6.30am</option>
+						<option value="2">6.45am</option>
+						<option value="3">8.00am</option>
+						<option value="4">8.30am</option>
+						<option value="5">10.45am</option>
+						<option value="6">11.15am</option>
+						<option value="7">1.15pm</option>
+						<option value="8">1.30pm</option>
+						<option value="9">2.45pm</option>
+						<option value="10">3.15pm</option>
+						<option value="11">4.30pm</option>
+						<option value="12">5.15pm</option>
+
+					</select>
+				</fieldset>
+
+				<fieldset class="submit">
+					<input name="btn_submit" type="submit" id="btn_submit" value="Submit">
+				</fieldset>
+				
+			</figcaption><!-- course_info_transbox -->
+
+		</div> <!-- end bg box -->
+
+	</article><!-- end tee_time -->
+<div class="clear">
+	</div><!-- end of clear -->
 
 </main>
 
