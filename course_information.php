@@ -12,8 +12,12 @@ include('./templates/header.php');
 <!doctype html>
 <main>
 
-<section class="container">
-	<img class="hp_bg_img" src="images/golf_woods.jpg"
+<section class="container hp_img_relative">
+	<img class="hp_bg_img" src="images/golf_woods.jpg">
+
+		<article class="book_tee_time">
+		<h2>Book a Time</h2>
+	</article><!-- end book_tee_time -->
 </section><!-- end container -->
 
 

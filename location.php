@@ -13,8 +13,11 @@ include('./templates/header.php');
 
 <main>
 
-<section class="container">
-	<img class="hp_bg_img" src="images/dear_golf_course.jpg"
+<section class="container hp_img_relative">
+	<img class="hp_bg_img" src="images/dear_golf_course.jpg">
+	<article class="book_tee_time">
+		<h2>Book a Time</h2>
+	</article><!-- end book_tee_time -->
 </section><!-- end course section hero -->
 
 <section class="location settings_google">
