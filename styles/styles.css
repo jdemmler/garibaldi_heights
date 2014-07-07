@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("resets.css");
+@import url("header.css");
+@import url("page_content.css");
+@import url("general_settings.css");
+@import url("typography.css");
+@import url("footer.css");
+@import url("forms.css");
+
+/* wrapper styles */
+
+
+
+.spacemaker5000/* :D */ {
+	margin-bottom: 740px;
+}
+
+/* hero img styles */
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+}
+
+.hp_bg_img {
+	position: absolute;
+	top: 0px;
+	left: -842.5px;
+
+}
+
+.course_info_bg_img {
+	position: absolute;
+	top: 0px;
+	left: -842.5px;
+
+}
+
+.location_bg_img {
+	position: absolute;
+	top: 0px;
+	left: -842.5px;
+
+}
+
+/* end hero img styles */
+
+
+
+.tagline {
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	z-index: 5;
+}
+
+.tagline h1 {
+	font-size: 1.8em;
+}
+
+.welcome {
+	position: relative;
+	
+	padding: 10px 0 10px 0;
+	z-index: 5;
+	background-color: rgba(223, 218, 199,0.8);
+	color: #040F01;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.book_tee_time {
+	position: absolute;
+	top: 675px;
+	left: -842.5px;
+	width: 2645px;
+	z-index: 5;
+	text-align: center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: .5px .5px 5px rgba(255, 255, 255, 0.9);
+}
+
+
+/* course Information styles */
+.wrapper, .information_container {
+	background-color: #DFDAC7;
+}
+
+.information_container {
+	min-width: 960px;
+	margin: 0 auto;
+	background-color: #DFDAC7;
+}
+
+
+
+
+
+
+/* .course_info_hero img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+
+} */
+
+.general_image_settings {
+	height: 350px;
+	width: 350px;
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 20px;
+}
+
+/* course info trans styles */
+
+.restaurant:hover .restaurant_trans01,
+.restaurant:target .restaurant_trans01,
+.restaurant:focus .restaurant_trans01,
+.restaurant:hover .restaurant_trans02,
+.restaurant:target .restaurant_trans02,
+.restaurant:focus .restaurant_trans02,
+.restaurant:hover .restaurant_trans03,
+.restaurant:target .restaurant_trans03,
+.restaurant:focus .restaurant_trans03,
+
+.pro_shop:hover .pro_shop_trans01,
+.pro_shop:target .pro_shop_trans01,
+.pro_shop:focus .pro_shop_trans01,
+.pro_shop:hover .pro_shop_trans02,
+.pro_shop:target .pro_shop_trans02,
+.pro_shop:focus .pro_shop_trans02,
+.pro_shop:hover .pro_shop_trans03,
+.pro_shop:target .pro_shop_trans03,
+.pro_shop:focus .pro_shop_trans03,
+
+.green_fees:hover .green_fees_trans01,
+.green_fees:target .green_fees_trans01,
+.green_fees:focus .green_fees_trans01,
+.green_fees:hover .green_fees_trans02,
+.green_fees:target .green_fees_trans02,
+.green_fees:focus .green_fees_trans02,
+.green_fees:hover .green_fees_trans03,
+.green_fees:target .green_fees_trans03,
+.green_fees:focus .green_fees_trans03,
+
+.tee_time:hover,
+.tee_time:target,
+.tee_time:focus {
+	-webkit-transform: scale(1.2, 1.2);
+	-moz-tansform: scale(1.2, 1.2);
+	-o-tansform: scale(1.2, 1.2);
+	transform: scale(1.2, 1.2);
+}
+
+.pro_shop_trans01,
+.restaurant_trans01,
+.green_fees_trans01,
+.tee_time_trans01 {
+	-webkit-transition: 0.2s ease;
+	-moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	transition: 0.2s ease;
+
+}
+
+.pro_shop_trans02,
+.restaurant_trans02,
+.green_fees_trans02 {
+	-webkit-transition: 0.33s ease;
+	-moz-transition: 0.33s ease;
+	-o-transition: 0.33s ease;
+	transition: 0.33s ease;
+}
+
+.pro_shop_trans03,
+.restaurant_trans03,
+.green_fees_trans03 {
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+/* end course info trans styles */
+
+
+
+.course_info_transbox {
+	height:96px;
+	width: 350px;
+	background-color: #7A4012; 
+	opacity: 0.9;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+
+}
+
+.course_info_transbox h1, .tee_time_transbox h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 1.5em;
+	
+}
+
+.tee_time {
+	position: relative;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #7A4012;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+
+.tee_time_transbox {
+	height:350px;
+	width: 350px;
+
+	opacity: 0.9;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.restaurant {
+	position: relative;
+}
+
+.pro_shop {
+	position: relative;
+}
+
+.green_fees {
+	position: relative;
+}
+
+/* end course inforamtion styles */
+
+/* contact us styles */
+
+
+.contact_info_transbox {
+	height:96px;
+	width: 350px;
+	background-color: #7A4012; 
+	opacity: 0.9;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.contact_info_transbox h1  {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	font-size: 1.5em;
+	
+}
+
+.contact_info_transbox h2  {
+
+	font-weight: bold;
+	padding-bottom: 5px;
+	font-size: 1.2em;
+	
+}
+
+
+.golf_pro {
+	position: relative;
+}
+
+.green_keeper {
+	position: relative;
+}
+
+.restaurant_manager {
+	position: relative;
+}
+
+.gm {
+	position: relative;
+	
+}
+
+
+/* end contact us styles */
+
+
+
+/* location styles */
+
+.location {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+
+}
+
+.settings_google {
+	width: 900px;
+	height: 400px;
+
+	border: solid #7A4012 3px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.contact_icons {
+	width: 32%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.telephone, .email, .hours {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: solid #7A4012 3px;
+	display: block;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.telephone {
+	margin-left: 0;
+
+}

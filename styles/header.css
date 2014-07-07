@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+header {
+	border-top: solid 2px #7A4012;
+	border-bottom: solid 2px #7A4012;
+	width: 100%;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #DFDAC7;
+}
+
+.inner_header {
+	min-width: 900px;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.logo_nav {
+	float: left;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	width: 170px;
+	-webkit-transition: 0.4s ease;
+	-moz-transition: 0.4s ease;
+	-o-transition: 0.4s ease;
+	transition: 0.4s ease;
+}
+
+.logo_nav:hover,
+.logo_nav:target,
+.logo_nav:focus {
+	opacity: 0.75;
+}
+
+/* nav styles */
+
+ul {
+list-style: none;
+}
+
+nav li {
+display: inline;
+}
+
+nav {
+	height: 70px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+nav li {
+	display: inline;
+}
+nav a {
+	display: block;
+	float: left;
+	color: #f4f0cb;
+	text-decoration: none;
+	text-align: center;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: -moz-calc( (100% / 5) - ((5px * 4) / 5) );
+	width: -webkit-calc( (100% / 5) - ((5px * 4) / 5) );
+	width: calc( (100% / 5) - ((5px * 4) / 5) );
+	font-weight: bold;
+	font-size: 1.4em;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #DFDAC7;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin-bottom: 10px;
+	white-space: normal;
+}
+nav a:hover, nav a:active, nav a:focus {
+	background-color: #83831F;
+	opacity: 0.5;
+	color: #fff;
+
+}
+.selected {
+	background-color: #7A4012;
+	opacity: 0.5;
+}

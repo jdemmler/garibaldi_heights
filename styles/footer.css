@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* upper footer */
+
+.upper_footer {
+	background-color: rgba(131,131,31,0.6);
+	background-image: url(../images/asfalt-light.png);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #DFDAC7;
+}
+
+.contact_us {
+	float: left;
+	width: -moz-calc( (100% / 3) - ((100px * 2) / 3) );
+	width: -webkit-calc( (100% / 3) - ((100px * 2) / 3) );
+	width: calc( (100% / 3) - ((100px * 2) / 3) );
+	margin-left: 150px;
+}
+
+.about_us {
+	margin-right: 150px;
+}
+
+.upper_footer h2 {
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 1.5em;
+}
+
+.upper_footer p {
+	line-height: 20px;
+}
+
+/* end upper footer */
+
+
+/* lower footer */
+
+.lower_footer {
+	background-color: rgba(122,64,18,0.8);
+	background-image: url(../images/asfalt-light.png);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.lower_footer p {
+	float: left;
+	text-align: center;
+	width: -moz-calc( (100% / 3) - ((100px * 2) / 3) );
+	width: -webkit-calc( (100% / 3) - ((100px * 2) / 3) );
+	width: calc( (100% / 3) - ((100px * 2) / 3) );
+}
+
+.lower_footer p:nth-child(3) {
+	margin-left: 0;
+	text-align: right;
+	}
+
+
+
+.clear {
+clear: both;
+}
