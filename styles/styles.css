@@ -302,6 +302,100 @@ margin: 0 auto;
 	margin-bottom: 20px;
 }
 
+.location {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+
+}
+
+.play {
+	text-align: center;
+	
+	padding-top: 30px;
+	font-family: 'Merriweather', serif;
+	line-height: 30px;
+	color: #7A4012;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+.settings_google {
+	width: 900px;
+	height: 400px;
+
+	border: solid #7A4012 3px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.icon-mail, .icon-phone {
+	font-size: 50px;
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	color: 	#DFDAC7;
+}
+
+.inner_icons {
+	width: 360px;
+	margin: auto;
+
+}
+
+.contact_icons article {
+ 	position: relative;
+}
+
+.contact_icons h1 {
+	position: absolute;
+	top: 96px;
+	left: 24px;
+	color: 	#DFDAC7;
+	font-family: 'Arvo', serif;
+}
+
+
+.telephone, .email {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: solid #DFDAC7 3px;
+	display: block;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	background-color: #7A4012;
+
+}
+
+.telephone {
+	margin-left: 0;
+
+}
+
+.contact_outer {
+	width: 100%;
+background-color: rgba(131,131,31,0.6);
+	background-image: url(../images/asfalt-light.png);
+border-top: solid 2px #7A4012;
+	
+}
+
+.team,  {
+	text-align: center;
+	padding-bottom: 50px;
+	font-family: 'Merriweather', serif;
+	line-height: 30px;
+	color: #7A4012;
+	font-size: 2em;
+	line-height: 1.5em;
+
+}
+
 .contact_info_transbox {
 	height:96px;
 	width: 350px;
@@ -451,45 +545,5 @@ border-top: solid 2px #7A4012;
 	position: relative;
 }
 
-/* location styles */
+/* contact us styles */
 
-.location {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	position: relative;
-
-}
-
-.settings_google {
-	width: 900px;
-	height: 400px;
-
-	border: solid #7A4012 3px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: hidden;
-	margin-bottom: 30px;
-}
-
-.contact_icons {
-	width: 32%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.telephone, .email, .hours {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	border: solid #7A4012 3px;
-	display: block;
-	float: left;
-	margin-left: 40px;
-	margin-bottom: 20px;
-}
-
-.telephone {
-	margin-left: 0;
-
-}

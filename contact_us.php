@@ -18,112 +18,125 @@ include('./templates/header.php');
 	</article><!-- end book_tee_time -->
 </section><!-- end course section hero -->
 
-<section class="location settings_google">
 
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82525.04670465493!2d-123.12486079999995!3d49.731362349999515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486f9a46a868cbd%3A0x599a7861ed442e84!2sSquamish+Valley+Golf+%26+Country+Club!5e0!3m2!1sen!2sca!4v1404599300871" width="900" height="400" frameborder="0" style="border:0"></iframe>
+<div class="contact_outer">
 
-</section><!-- end location -->
+	<div class="play">
+<h1> Come join us for a game</h1>
+	</div><!-- end play-->
 
-<section class="contact_icons">
+	<section class="location settings_google">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82525.04670465493!2d-123.12486079999995!3d49.731362349999515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5486f9a46a868cbd%3A0x599a7861ed442e84!2sSquamish+Valley+Golf+%26+Country+Club!5e0!3m2!1sen!2sca!4v1404599300871" width="900" height="400" frameborder="0" style="border:0"></iframe>
 
-	<article class="telephone">
+	</section><!-- end location -->
 
-	</article><!-- end telephone -->
+	<section class="contact_icons">
 
-	<article class="email">
+		<div class="inner_icons">
 
-	</article><!-- end email -->
+			<article class="telephone">
+				<span class="icon-phone"></span>
+				<h1>Give Us a Call<h1>
+				</article><!-- end telephone -->
 
-	<article class="hours">
+				<article class="email">
+					<span class="icon-mail"></span>
+					<h1>Send Us an Email</h1>
+				</article><!-- end email -->
 
-	</article><!-- end hours-->
+				<div class="clear">
+				</div><!-- end of clear-->
 
-	<div class="clear">
-	</div><!-- end of clear -->
+			</div><!--end inner icons-->
 
+		</section><!-- end contact_icons-->
 
-</section><!-- end contact_icons-->
-
-<section class="information_container">
-
-	
-
-	<div class="inner_information">
-		<h1>Meet the Team</h1>
-		<p>We are here to help</p>
-
-		<article class="gm general_image_settings">
-
-			<figcaption class="contact_info_transbox">
-
-				<h1>General Manager</h1>
-				<h2>Matthew Wellein</h2>
-				<p>604 895 6526</p>
-				<p>matt@garibaldiheights.com</p>
-
-			</figcaption><!-- course_info_transbox -->
-
-		</article><!-- end gm -->
-		<article class="golf_pro general_image_settings">
-
-			<img src="images/golf_pro.jpg" alt="Picture of Gold Pro Jo Demmler">
-
-			<figcaption class="contact_info_transbox">
-
-				<h1>Golf Pro</h1>
-				<h2>Jo Demmler</h2>
-				<p>604 895 6523</p>
-				<p>jo@garibaldiheights.com</p>	
-
-			</figcaption><!-- end contact_info_transbox -->
-
-		</article><!-- end golf_pro -->
-
-		<article class="green_keeper general_image_settings">
-
-			<img src="images/green_keeper.jpg" alt="Picture of Pro Shop">
-
-			<figcaption class="contact_info_transbox">
-
-				<h1>Green Keeper</h1>
-				<h2>Nick Orr</h2>
-				<p>604 895 6524</p>
-				<p>nick@garibaldiheights.com</p>	
-
-
-			</figcaption><!-- course_info_transbox -->
-
-		</article><!-- end green_keeper -->
-
-		<article class="restaurant_manager general_image_settings">
-
-			<img src="images/restaurant_manager.jpg" alt="Green Fees">
-
-			<figcaption class="contact_info_transbox">
-
-				<h1>Restaurant Manager</h1>
-				<h2>Taren Brockhouse</h2>
-				<p>604 895 6525</p>
-				<p>taren@garibaldiheights.com</p>
-
-			</figcaption><!-- end course_info_transbox -->
-
-		</article><!-- end restaurant_manager -->
-
-
-
-		<div class="clear">
-		</div><!-- end of clear -->
-	</div><!-- end inner_information-->
-
-</section><!-- end information_container -->
+	</div><!-- end contact_outer -->
 
 
 
 
+	<section class="information_container">
+
+		<div class="inner_information">
+
+			<div class="team">
+			<h1>Meet the Team</h1>
+			<p>We are here to help</p>
+		</div><!-- end team -->
+
+			<article class="gm general_image_settings">
+
+				<figcaption class="contact_info_transbox">
+
+					<h1>General Manager</h1>
+					<h2>Matthew Wellein</h2>
+					<p>604 895 6526</p>
+					<p>matt@garibaldiheights.com</p>
+
+				</figcaption><!-- course_info_transbox -->
+
+			</article><!-- end gm -->
+			<article class="golf_pro general_image_settings">
+
+				<img src="images/golf_pro.jpg" alt="Picture of Gold Pro Jo Demmler">
+
+				<figcaption class="contact_info_transbox">
+
+					<h1>Golf Pro</h1>
+					<h2>Jo Demmler</h2>
+					<p>604 895 6523</p>
+					<p>jo@garibaldiheights.com</p>	
+
+				</figcaption><!-- end contact_info_transbox -->
+
+			</article><!-- end golf_pro -->
+
+			<article class="green_keeper general_image_settings">
+
+				<img src="images/green_keeper.jpg" alt="Picture of Pro Shop">
+
+				<figcaption class="contact_info_transbox">
+
+					<h1>Green Keeper</h1>
+					<h2>Nick Orr</h2>
+					<p>604 895 6524</p>
+					<p>nick@garibaldiheights.com</p>	
+
+
+				</figcaption><!-- course_info_transbox -->
+
+			</article><!-- end green_keeper -->
+
+			<article class="restaurant_manager general_image_settings">
+
+				<img src="images/restaurant_manager.jpg" alt="Green Fees">
+
+				<figcaption class="contact_info_transbox">
+
+					<h1>Restaurant Manager</h1>
+					<h2>Taren Brockhouse</h2>
+					<p>604 895 6525</p>
+					<p>taren@garibaldiheights.com</p>
+
+				</figcaption><!-- end course_info_transbox -->
+
+			</article><!-- end restaurant_manager -->
 
 
 
-<?php
-include('./templates/footer.php');
-?>
+			<div class="clear">
+			</div><!-- end of clear -->
+		</div><!-- end inner_information-->
+
+	</section><!-- end information_container -->
+
+
+
+
+
+
+
+	<?php
+	include('./templates/footer.php');
+	?>
