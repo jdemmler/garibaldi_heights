@@ -36,13 +36,26 @@ header {
 	font-family: 'Marck Script', cursive;
 	font-size: 1.5em;
 	color: 	 #7A4012;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
 
+.call:hover{
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .call_big {
 	font-size: 1.6em;
 	position: absolute;
 }
+
+
 
 .logo_nav:hover,
 .logo_nav:target,
@@ -90,6 +103,7 @@ nav a {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	margin-bottom: 10px;
 	white-space: normal;
+	border-radius: 10px;
 }
 nav a:hover, nav a:active, nav a:focus {
 	background-color: #83831F;

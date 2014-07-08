@@ -14,7 +14,7 @@ include('./templates/header.php');
 <section class="course_info_hero hp_img_relative">
 	<img class="hp_bg_img" src="images/stormy_golf.jpg" alt="Picture of the 2nd Fairway with the lake in the fore ground">
 	<article class="book_tee_time">
-		<h2>Book a Time</h2>
+		<h2><a href="location.php">Book a Time</a></h2>
 	</article><!-- end book_tee_time -->
 </section><!-- end course section hero -->
 
@@ -34,15 +34,20 @@ include('./templates/header.php');
 
 		<div class="inner_icons">
 
+			<a href="#">
 			<article class="telephone">
 				<span class="icon-phone"></span>
 				<h1>Give Us a Call<h1>
+					<span></span>
 				</article><!-- end telephone -->
+			</a>
 
+				<a href="#">
 				<article class="email">
 					<span class="icon-mail"></span>
 					<h1>Send an Email</h1>
 				</article><!-- end email -->
+				</a>
 
 				<div class="clear">
 				</div><!-- end of clear-->
@@ -66,7 +71,7 @@ include('./templates/header.php');
 			</div><!-- end team -->
 
 			<article class="gm general_image_settings">
-				<img src="images/golf_pro.jpg" alt="Picture of GM Chris Crossingr">
+				<img src="images/gm.jpg" alt="Picture of GM Chris Crossingr">
 
 				<figcaption class="contact_info_transbox">
 

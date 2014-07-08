@@ -16,7 +16,7 @@
 		<section class="container hp_img_relative">
 			<img class="hp_bg_img" src="images/dear_golf_course.jpg" alt="Picture of the 8th Fairway with dear on the golf Course">
 			<article class="book_tee_time">
-				<h2>Book a Time</h2>
+				<h2><a href="location.php">Book a Time</a></h2>
 			</article><!-- end book_tee_time -->
 		</section><!-- end course section hero -->
 

@@ -16,7 +16,7 @@ include('./templates/header.php');
 		<img class="hp_bg_img" src="images/golf_woods.jpg" alt="Picture of the 12th Green at Garibaldi Heights Golf Club">
 
 		<article class="book_tee_time">
-			<h2>Book a Time</h2>
+			<h2><a href="location.php">Book a Time</a></h2>
 		</article><!-- end book_tee_time -->
 	</section><!-- end container -->
 

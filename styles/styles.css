@@ -23,6 +23,8 @@
 }
 /* end hero image styles */
 
+/* wlecome message styles */
+
 .tagline {
 	position: absolute;
 	top: 10%;
@@ -39,9 +41,9 @@
 
 .welcome {
 	width: 100%;
-background-image: url(../images/asfalt-light.png);
-background-color: #DFDAC7;
-border-top: solid 2px #7A4012;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #DFDAC7;
+	border-top: solid 2px #7A4012;
 	border-bottom: solid 2px #7A4012;
 }
 
@@ -69,7 +71,7 @@ border-top: solid 2px #7A4012;
 .inner_welcome p {
 	font-family: 'Merriweather', serif;
 	line-height: 30px;
-		color: #7A4012;
+	color: #7A4012;
 }
 
 .inner_welcome p:nth-child(4) {
@@ -79,6 +81,10 @@ border-top: solid 2px #7A4012;
 	font-size: 1.9em;
 }
 
+/* end welcome message styles */
+
+/* book a tee time styles */
+
 .book_tee_time {
 	position: absolute;
 	top: 75%;
@@ -86,7 +92,7 @@ border-top: solid 2px #7A4012;
 	width:200px;
 	height: 50px;
 	line-height: 45px;
-	color: #DFDAC7;
+	border-radius: 
 	text-transform: uppercase;
 	background-color: #7A4012;
 	background-image:url(../images/asfalt-light.png);
@@ -94,28 +100,31 @@ border-top: solid 2px #7A4012;
 	text-align: center;
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 1.6em;
-	font-weight: bold;
-	
+	font-weight: bold;	
+	border-radius: 10px;
+
+}
+
+.book_tee_time a {
+	text-decoration: none;
+	color: #DFDAC7;
+}
+
+.book_tee_time:hover {
+-moz-box-shadow: 0px 0px 20px #dfdac7;
+-webkit-box-shadow: 0px 0px 20px #dfdac7;
+box-shadow: 0px 0px 20px #dfdac7;
 }
 
 
-/* course Information styles */
-/*.wrapper, .information_container {
-	background-color: #DFDAC7;
-}
-
-.information_container {
-	min-width: 960px;
-	margin: 0 auto;
-	background-color: #DFDAC7;
-}
+/* end styles book a tee time */
 
 
 
+/* styles course information */
 
 
-
- .course_info_hero img {
+.course_info_hero img {
 	max-width: 100%;
 	height: auto;
 	position: relative;
@@ -131,123 +140,6 @@ border-top: solid 2px #7A4012;
 	margin-bottom: 20px;
 }
 
-/* course info trans styles */
-
-/*.restaurant:hover .restaurant_trans01,
-.restaurant:target .restaurant_trans01,
-.restaurant:focus .restaurant_trans01,
-.restaurant:hover .restaurant_trans02,
-.restaurant:target .restaurant_trans02,
-.restaurant:focus .restaurant_trans02,
-.restaurant:hover .restaurant_trans03,
-.restaurant:target .restaurant_trans03,
-.restaurant:focus .restaurant_trans03,
-
-.pro_shop:hover .pro_shop_trans01,
-.pro_shop:target .pro_shop_trans01,
-.pro_shop:focus .pro_shop_trans01,
-.pro_shop:hover .pro_shop_trans02,
-.pro_shop:target .pro_shop_trans02,
-.pro_shop:focus .pro_shop_trans02,
-.pro_shop:hover .pro_shop_trans03,
-.pro_shop:target .pro_shop_trans03,
-.pro_shop:focus .pro_shop_trans03,
-
-.green_fees:hover .green_fees_trans01,
-.green_fees:target .green_fees_trans01,
-.green_fees:focus .green_fees_trans01,
-.green_fees:hover .green_fees_trans02,
-.green_fees:target .green_fees_trans02,
-.green_fees:focus .green_fees_trans02,
-.green_fees:hover .green_fees_trans03,
-.green_fees:target .green_fees_trans03,
-.green_fees:focus .green_fees_trans03,
-
-.tee_time:hover,
-.tee_time:target,
-.tee_time:focus {
-	-webkit-transform: scale(1.2, 1.2);
-	-moz-tansform: scale(1.2, 1.2);
-	-o-tansform: scale(1.2, 1.2);
-	transform: scale(1.2, 1.2);
-}
-
-.pro_shop_trans01,
-.restaurant_trans01,
-.green_fees_trans01,
-.tee_time_trans01 {
-	-webkit-transition: 0.2s ease;
-	-moz-transition: 0.2s ease;
-	-o-transition: 0.2s ease;
-	transition: 0.2s ease;
-
-}
-
-.pro_shop_trans02,
-.restaurant_trans02,
-.green_fees_trans02 {
-	-webkit-transition: 0.33s ease;
-	-moz-transition: 0.33s ease;
-	-o-transition: 0.33s ease;
-	transition: 0.33s ease;
-}
-
-.pro_shop_trans03,
-.restaurant_trans03,
-.green_fees_trans03 {
-	-webkit-transition: 0.5s ease;
-	-moz-transition: 0.5s ease;
-	-o-transition: 0.5s ease;
-	transition: 0.5s ease;
-}
-
-/* end course info trans styles */
-
-
-
-/*.course_info_transbox {
-	height:96px;
-	width: 350px;
-	background-color: #7A4012; 
-	opacity: 0.9;
-	color: white;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-
-
-}
-
-.course_info_transbox h1, .tee_time_transbox h1 {
-	text-transform: uppercase;
-	font-weight: bold;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	font-size: 1.5em;
-	
-}
-
-.tee_time {
-	position: relative;
-	background-image: url(../images/asfalt-light.png);
-	background-color: #7A4012;
-	-webkit-transition: 0.5s ease;
-	-moz-transition: 0.5s ease;
-	-o-transition: 0.5s ease;
-	transition: 0.5s ease;
-}
-
-
-.tee_time_transbox {
-	height:350px;
-	width: 350px;
-
-	opacity: 0.9;
-	color: white;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
 
 .restaurant {
 	position: relative;
@@ -261,15 +153,96 @@ border-top: solid 2px #7A4012;
 	position: relative;
 } 
 
+.ci_container {
+	display: table;
+}
+
+.information_container {
+	width: 100%;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #DFDAC7;
+	border-top: solid 2px #7A4012;
+	border-bottom: solid 2px #7A4012;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.course_info_bg_img {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	display: block;
+}
+
+.picture {
+	float: left;
+}
+
+.general_image_settings_ci {
+	height: 350px;
+	width: 350px;
+	border-radius: 10px;
+	text-align: center;
+	margin: 5px;
+	margin-bottom: 20px;
+}
+
+.general_image_settings_ci img {
+	border-radius: 10px;
+}
+
+.information_speil {
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-left: 400px;
+}
+
+.information_speil p {
+	padding-bottom: 15px;
+	font-family: Arvo, serif;
+	line-height: 1.3em;
+}
+
+.course_info_transbox {
+	height:96px;
+	width: 350px;
+	background-color: #7A4012; 
+	opacity: 0.9;
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.course_info_transbox h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 1.5em;
+}
+
+.restaurant {
+	position: relative;
+}
+
+.pro_shop {
+	position: relative;
+}
+
+.green_fees {
+	position: relative;
+}
+
 /* end course inforamtion styles */
 
 /* contact us styles */
 
 .inner_information {
 	min-width: 900px;
-max-width: 1500px;
-margin: 0 auto;
-text-align: centre;
+	max-width: 1500px;
+	margin: 0 auto;
+	text-align: centre;
 }
 
 .general_image_settings {
@@ -279,13 +252,17 @@ text-align: centre;
 	text-align: center;
 	margin: 5px;
 	margin-bottom: 20px;
+	opacity: 0.7;
+}
+
+.general_image_settings:hover {
+	opacity: 1;
 }
 
 .location {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	position: relative;
-
 }
 
 .play {
@@ -322,11 +299,10 @@ text-align: centre;
 .inner_icons {
 	width: 360px;
 	margin: auto;
-
 }
 
 .contact_icons article {
- 	position: relative;
+	position: relative;
 }
 
 .contact_icons h1 {
@@ -349,7 +325,13 @@ text-align: centre;
 	margin-left: 40px;
 	margin-bottom: 20px;
 	background-color: #7A4012;
+	opacity: 0.5;
+}
 
+.telephone:hover, 
+.email:hover {
+	opacity: 1;
+	border: dotted #DFDAC7 3px;
 }
 
 .telephone {
@@ -358,11 +340,12 @@ text-align: centre;
 
 .contact_outer {
 	width: 100%;
-background-color: rgba(131,131,31,0.6);
+	background-color: rgba(131,131,31,0.6);
 	background-image: url(../images/asfalt-light.png);
-border-top: solid 2px #7A4012;
-
+	border-top: solid 2px #7A4012;
 }
+
+
 
 .team  {
 	text-align: center;
@@ -391,7 +374,6 @@ border-top: solid 2px #7A4012;
 	padding-top: 10px;
 	padding-bottom: 3px;
 	font-size: 1.5em;
-	
 }
 
 .contact_info_transbox h2  {
@@ -415,121 +397,23 @@ border-top: solid 2px #7A4012;
 
 .gm {
 	position: relative;
-	
 }
 
 
 /* end contact us styles */
 
-/* course Information styles */
-
-.ci_container {
-	display: table;
-}
 
 
-.information_container {
-	width: 100%;
-background-image: url(../images/asfalt-light.png);
-background-color: #DFDAC7;
-border-top: solid 2px #7A4012;
-	border-bottom: solid 2px #7A4012;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
 
-.course_info_bg_img {
-	max-width: 100%;
-	height: auto;
-	position: relative;
-	display: block;
-}
-
-.picture {
-	float: left;
-}
-
-.general_image_settings_ci {
-	height: 350px;
-	width: 350px;
-	
-	text-align: center;
-	margin: 5px;
-	margin-bottom: 20px;
-}
-
-.information_speil {
-	margin-right: 100px;
-	margin-top: 50px;
-	margin-left: 400px;
-}
-
-.information_speil p {
-	padding-bottom: 15px;
-	font-family: Arvo, serif;
-	line-height: 1.3em;
-}
-
-.course_info_transbox {
-	height:96px;
-	width: 350px;
-	background-color: #7A4012; 
-	opacity: 0.9;
-	color: white;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-}
-
-.course_info_transbox h1, .tee_time_transbox h1 {
-	text-transform: uppercase;
-	font-weight: bold;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	font-size: 1.5em;
-	
-}
-
-.tee_time {
-	position: relative;
-	background-image: url(../images/asfalt-light.png);
-	background-color: #7A4012;
-}
-
-
-.tee_time_transbox {
-	height:350px;
-	width: 350px;
-
-	opacity: 0.9;
-	color: white;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-}
-
-.restaurant {
-	position: relative;
-}
-
-
-.pro_shop {
-	position: relative;
-}
-
-.green_fees {
-	position: relative;
-}
-
-/* contact us styles */
+/* tee time styles */
 
 
 .outer_form {
 	width: 100%;
 	width: 100%;
-background-image: url(../images/asfalt-light.png);
-background-color: #DFDAC7;
-border-top: solid 2px #7A4012;
+	background-image: url(../images/asfalt-light.png);
+	background-color: #DFDAC7;
+	border-top: solid 2px #7A4012;
 	border-bottom: solid 2px #7A4012;
 }
 
