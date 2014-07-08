@@ -1,6 +1,6 @@
 	<?php
 
-	$pageTitle = 'Location';
+	$pageTitle = 'Book a Time';
 	$homeSelected = '';
 	$informationSelected = ''; 
 	$holeSelected = ''; 
@@ -14,14 +14,11 @@
 	<main>
 
 		<section class="container hp_img_relative">
-			<img class="hp_bg_img" src="images/dear_golf_course.jpg">
+			<img class="hp_bg_img" src="images/dear_golf_course.jpg" alt="Picture of the 8th Fairway with dear on the golf Course">
 			<article class="book_tee_time">
 				<h2>Book a Time</h2>
 			</article><!-- end book_tee_time -->
 		</section><!-- end course section hero -->
-
-
-		
 
 		<div class="outer_form">
 			<div class="inner_form">
@@ -123,11 +120,6 @@
 							<input name="btn_submit" type="submit" id="btn_submit" value="Submit">
 						</fieldset>
 					</form>
-
-
-
-
-
 
 				</section><!-- end booking form -->
 

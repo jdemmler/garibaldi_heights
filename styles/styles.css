@@ -9,11 +9,6 @@
 @import url("footer.css");
 @import url("forms.css");
 
-/* wrapper styles */
-
-
-
-
 
 /* hero img styles */
 .hp_img_relative {
@@ -26,24 +21,7 @@
 	position: relative;
 	display: block;
 }
-
-/*.course_info_bg_img {
-	position: absolute;
-	top: 0px;
-	left: -842.5px;
-
-}*/
-
-/*.location_bg_img {
-	position: absolute;
-	top: 0px;
-	left: -842.5px;
-
-}*/
-
-/* end hero img styles */
-
-
+/* end hero image styles */
 
 .tagline {
 	position: absolute;
@@ -95,10 +73,10 @@ border-top: solid 2px #7A4012;
 }
 
 .inner_welcome p:nth-child(4) {
-	font-family: 'Merriweather', serif;
+	font-family: 'Marck Script', cursive;
 	padding-top: 10px;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.9em;
 }
 
 .book_tee_time {

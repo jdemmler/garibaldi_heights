@@ -1,22 +1,22 @@
 <!doctype html>
 <section class="upper_footer">
-<div class="inner_footer">
+	<div class="inner_footer">
 
-<article class="contact_us spacing">
-	<h2>Contact Us</h2>
-	<p>55-955 Garibaldi Heights Blvd.</p>
-    <p>Squamish, BC V8B 0A1</p>
-	<p>604.258.3697</p>
-    <p>info@garibaldiheights.com</p>
-    </article><!-- end contact-us -->
-    
-    <article class="about_us spacing">
-    <h2>About Us</h2>
-      <p>Garibaldi Heights Golf Club is a newly developed high-end exclusive golf course located in the heart of Squamish. The course was designed by the famous Australian 		golfer Greg Norman. Greg Norman Golf Course Design is recognized as the premier signature golf course design company in the world.</p>
-    </article><!-- end about us -->
-    
-    <article class="social spacing">
-    <a href="http://plus.google.com" target="_blank">
+		<article class="contact_us spacing">
+			<h2>Contact Us</h2>
+			<p>55-955 Garibaldi Heights Blvd.</p>
+			<p>Squamish, BC V8B 0A1</p>
+			<p>604.258.3697</p>
+			<p>info@garibaldiheights.com</p>
+		</article><!-- end contact-us -->
+		
+		<article class="about_us spacing">
+			<h2>About Us</h2>
+			<p>Garibaldi Heights Golf Club is a newly developed high-end exclusive golf course located in the heart of Squamish. The course was designed by the famous Australian 		golfer Greg Norman. Greg Norman Golf Course Design is recognized as the premier signature golf course design company in the world.</p>
+		</article><!-- end about us -->
+		
+		<article class="social spacing">
+			<a href="http://plus.google.com" target="_blank">
 				<div class="google_plus">
 					<span class="icon-googleplus"></span>   
 				</div><!-- end facebook -->
@@ -33,37 +33,37 @@
 					<span class="icon-twitter"></span>
 				</div><!-- end twitter -->
 			</a>
-    <div class="clear">
-	</div>
-    
-    </article><!-- end social -->
-    
-       <div class="clear">
-	</div>
-</div><!-- end inner footer -->
- 
-    
-    </section><!-- end upper_footer -->
-    
-    <section class="lower_footer">
-    <div class="inner_footer">
-    
-	<p class="spacing_lower">Copyright 2014 Garibaldi Heights Golf Club</p>
-	<p class="spacing_lower">For Educational Purposes Only</p>
-	<p class="spacing_lower">Image Credits</p>
-     
-      
-      <article class="top_arrow spacing_lower">
-      <a href="#back_top">
-      <span class="icon-arrow-up"></span>
-      </a>	
-      
-    
-      </article><!-- end top arrow -->
-         <div class="clear">
-	</div>
-    </div><!-- end inner footer -->
-         </section><!-- end lower footer -->
+			<div class="clear">
+			</div>
+			
+		</article><!-- end social -->
+		
+		<div class="clear">
+		</div>
+	</div><!-- end inner footer -->
+	
+	
+</section><!-- end upper_footer -->
+
+<section class="lower_footer">
+	<div class="inner_footer">
+		
+		<p class="spacing_lower">Copyright 2014 Garibaldi Heights Golf Club</p>
+		<p class="spacing_lower">For Educational Purposes Only</p>
+		<p class="spacing_lower">Image Credits</p>
+		
+		
+		<article class="top_arrow spacing_lower">
+			<a href="#back_top">
+				<span class="icon-arrow-up"></span>
+			</a>	
+			
+			
+		</article><!-- end top arrow -->
+		<div class="clear">
+		</div>
+	</div><!-- end inner footer -->
+</section><!-- end lower footer -->
 </footer>
 
 

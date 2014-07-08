@@ -14,31 +14,28 @@ include('./templates/header.php');
 
 <main>
 
-<!-- (   - > _   )  ;) i'll keep doing what you've started though -->
+	<section class="container hp_img_relative">
 
-<section class="container hp_img_relative">
+		<img class="hp_bg_img" src="images/fairway.jpg" alt="Picture of the 6th Green at Garibaldi Heights Golf Club">
 
-	<img class="hp_bg_img" src="images/fairway.jpg">
+		<article class="book_tee_time">
+			<h2>Book a Time</h2>
+		</article><!-- end book_tee_time -->
 
+	</section><!--end hp_image_area -->
 
-	<article class="book_tee_time">
-		<h2>Book a Time</h2>
-	</article><!-- end book_tee_time -->
+	<section class="welcome">
+		<article class="inner_welcome">
+			<h2>Welcome to Garibaldi Heights Golf Course</h2><br>
+			<p>This championship course is where timeless golf tradition meets modern luxury while being surrounded by the spectacular views of the Coastal Mountains.<br> If you are looking for a breathtaking experience, look no further.</p>  
+			<p>How nature was meant to be experienced!</p>
+			<article><!-- end inner_welcome -->
 
-</section><!--end hp_image_area -->
+			</section><!-- end welcome -->
 
-<section class="welcome">
-<article class="inner_welcome">
-		<h2>Welcome to Garibaldi Heights Golf Course</h2><br>
-		<p>This championship course is where timeless golf tradition meets modern luxury while being surrounded by the spectacular views of the Coastal Mountains.<br> If you are looking for a breathtaking experience, look no further.</p>  
-		<p>How nature was meant to be experienced!</p>
-        <article><!-- end inner_welcome -->
-
-	</section><!-- end welcome -->
-
-</main>
+		</main>
 
 
-<?php
-include('./templates/footer.php');
-?>
+		<?php
+		include('./templates/footer.php');
+		?>

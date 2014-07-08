@@ -6,6 +6,7 @@
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 <link href='http://fonts.googleapis.com/css?family=Arvo|Merriweather:400,900|Cardo:400,700|Old+Standard+TT:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Marck+Script' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -21,6 +22,10 @@
 			<img class="logo_nav" src="images/logo_2.png" alt="Garabaldi Heights">
 		</a>
 	</div><!--end logo -->
+	<div class="call">
+		<h1>Give Us a Call: <span class="call_big">1800.258.3697</span></h1>
+
+	</div><!-- end call -->
 		<nav>
 			<ul>
 		    	<li><a class="<?php echo $homeSelected; ?>" href="index.php">Home</a></li>

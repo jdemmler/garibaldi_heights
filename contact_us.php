@@ -12,7 +12,7 @@ include('./templates/header.php');
 <!doctype html>
 
 <section class="course_info_hero hp_img_relative">
-	<img class="hp_bg_img" src="images/stormy_golf.jpg">
+	<img class="hp_bg_img" src="images/stormy_golf.jpg" alt="Picture of the 2nd Fairway with the lake in the fore ground">
 	<article class="book_tee_time">
 		<h2>Book a Time</h2>
 	</article><!-- end book_tee_time -->
@@ -22,7 +22,7 @@ include('./templates/header.php');
 <div class="contact_outer">
 
 	<div class="play">
-<h1> Come join us for a game</h1>
+		<h1> Come join us for a game</h1>
 	</div><!-- end play-->
 
 	<section class="location settings_google">
@@ -61,16 +61,17 @@ include('./templates/header.php');
 		<div class="inner_information">
 
 			<div class="team">
-			<h1>Meet the Team</h1>
-			<p>We are here to help</p>
-		</div><!-- end team -->
+				<h1>Meet the Team</h1>
+				<p>We are here to help</p>
+			</div><!-- end team -->
 
 			<article class="gm general_image_settings">
+				<img src="images/golf_pro.jpg" alt="Picture of GM Chris Crossingr">
 
 				<figcaption class="contact_info_transbox">
 
 					<h1>General Manager</h1>
-					<h2>Matthew Wellein</h2>
+					<h2>Chris Crossing</h2>
 					<p>604 895 6526</p>
 					<p>matt@garibaldiheights.com</p>
 
@@ -79,12 +80,12 @@ include('./templates/header.php');
 			</article><!-- end gm -->
 			<article class="golf_pro general_image_settings">
 
-				<img src="images/golf_pro.jpg" alt="Picture of Gold Pro Jo Demmler">
+				<img src="images/golf_pro.jpg" alt="Picture of Golf Pro Penny Demster">
 
 				<figcaption class="contact_info_transbox">
 
 					<h1>Golf Pro</h1>
-					<h2>Jo Demmler</h2>
+					<h2>Penny Demster</h2>
 					<p>604 895 6523</p>
 					<p>jo@garibaldiheights.com</p>	
 
@@ -94,12 +95,12 @@ include('./templates/header.php');
 
 			<article class="green_keeper general_image_settings">
 
-				<img src="images/green_keeper.jpg" alt="Picture of Pro Shop">
+				<img src="images/green_keeper.jpg" alt="Picture of Green Keeper Nick Green">
 
 				<figcaption class="contact_info_transbox">
 
 					<h1>Green Keeper</h1>
-					<h2>Nick Orr</h2>
+					<h2>Nick Green</h2>
 					<p>604 895 6524</p>
 					<p>nick@garibaldiheights.com</p>	
 
@@ -110,12 +111,12 @@ include('./templates/header.php');
 
 			<article class="restaurant_manager general_image_settings">
 
-				<img src="images/restaurant_manager.jpg" alt="Green Fees">
+				<img src="images/restaurant_manager.jpg" alt="Picture of Restaurant Manager">
 
 				<figcaption class="contact_info_transbox">
 
 					<h1>Restaurant Manager</h1>
-					<h2>Taren Brockhouse</h2>
+					<h2>Taren Brock</h2>
 					<p>604 895 6525</p>
 					<p>taren@garibaldiheights.com</p>
 
