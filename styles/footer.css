@@ -33,6 +33,7 @@ font-family: 'Arvo', serif;
 
 .about_us {
 	float: left;
+	margin-left: 80px;
 }
 
 .social {
@@ -74,11 +75,19 @@ font-family: 'Arvo', serif;
 .lower_footer {
 	background-color: rgba(122, 64, 18,0.8);
 	background-image: url(../images/asfalt-light.png);
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	color: 	 #DFDAC7;
 	font-weight: bold;
-	
+	font-size: 14px;
+}
+
+.lower_footer p:nth-child(1) {
+	text-align: left;
+}
+
+.lower_footer p:nth-child(3) {
+	text-align: right;
 }
 
 .spacing_lower {
@@ -92,6 +101,11 @@ font-family: 'Arvo', serif;
 .icon-arrow-up {
 	font-size: 30px;
 	color: 	 #83831F;
+}
+
+.top_arrow {
+	text-align: right;
+	margin-bottom: 10px;
 }
 
 

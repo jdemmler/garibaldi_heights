@@ -291,6 +291,7 @@ border-top: solid 2px #7A4012;
 	min-width: 900px;
 max-width: 1500px;
 margin: 0 auto;
+text-align: centre;
 }
 
 .general_image_settings {
@@ -356,6 +357,7 @@ margin: 0 auto;
 	left: 24px;
 	color: 	#DFDAC7;
 	font-family: 'Arvo', serif;
+	font-size: 14px;
 }
 
 
@@ -374,7 +376,6 @@ margin: 0 auto;
 
 .telephone {
 	margin-left: 0;
-
 }
 
 .contact_outer {
@@ -382,10 +383,10 @@ margin: 0 auto;
 background-color: rgba(131,131,31,0.6);
 	background-image: url(../images/asfalt-light.png);
 border-top: solid 2px #7A4012;
-	
+
 }
 
-.team,  {
+.team  {
 	text-align: center;
 	padding-bottom: 50px;
 	font-family: 'Merriweather', serif;
@@ -393,7 +394,6 @@ border-top: solid 2px #7A4012;
 	color: #7A4012;
 	font-size: 2em;
 	line-height: 1.5em;
-
 }
 
 .contact_info_transbox {
@@ -421,9 +421,7 @@ border-top: solid 2px #7A4012;
 	font-weight: bold;
 	padding-bottom: 5px;
 	font-size: 1.2em;
-	
 }
-
 
 .golf_pro {
 	position: relative;
@@ -547,3 +545,102 @@ border-top: solid 2px #7A4012;
 
 /* contact us styles */
 
+
+.outer_form {
+	width: 100%;
+	width: 100%;
+background-image: url(../images/asfalt-light.png);
+background-color: #DFDAC7;
+border-top: solid 2px #7A4012;
+	border-bottom: solid 2px #7A4012;
+}
+
+.inner_form {
+	min-width: 900px;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.inner_form h1 {
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	line-height: 30px;
+	color: #7A4012;
+	font-size: 2em;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+.inner_form h2 {
+	text-align: center;
+	padding-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	line-height: 30px;
+	color: #7A4012;
+	font-size: 2em;
+	line-height: 1em;
+}
+
+.inner_form h2:nth-child(3) {
+	padding-bottom: 30px;
+}
+
+
+.inner_form p {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	color: #7A4012;
+	font-size: 1em;
+	line-height: 1em;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+fieldset {
+	text-align: center;
+}
+
+select {
+	text-align: center;
+}
+
+.booking_form {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	width: 40%;
+	background-image: url(../images/asfalt-light.png);
+	background-color: 	 #83831F;
+	font-weight:  bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 5px solid 	 #7A4012;
+	padding: 5px;
+	padding-bottom: 30px;
+	-moz-box-shadow: 0 0 10px 10px #b3a580;
+	-webkit-box-shadow: 0 0 10px 10px #b3a580;
+	box-shadow: 0 0 10px 10px 	 #AE9C2C;
+	outline: 5px solid #DFDAC7;
+	font-family: 'Arvo', serif;
+}
+
+.submit input[type="submit"] {
+	width: auto;
+	position: relative;
+	margin-top: 20px;
+	background-color: #b7c68b;
+	font-family: "merriweather", serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #685642;
+}
+#btn_submit:hover {
+	-moz-box-shadow: 0 0 35px rgba(244,240,203,0.7);
+	-webkit-box-shadow: 0 0 35px rgba(244,240,203,0.7);
+	box-shadow: 0 0 35px rgba(244,240,203,0.7);
+}

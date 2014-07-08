@@ -41,7 +41,7 @@ include('./templates/header.php');
 
 				<article class="email">
 					<span class="icon-mail"></span>
-					<h1>Send Us an Email</h1>
+					<h1>Send an Email</h1>
 				</article><!-- end email -->
 
 				<div class="clear">
